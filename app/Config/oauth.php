@@ -8,7 +8,7 @@ $config = [
         'client_id'                 => getenv('CLIENT_ID'),
         'client_secret'             => getenv('CLIENT_SECRET'),
         'scope'                     => 'commands,chat:write:bot,bot',
-        'redirect_uri'              =>  $host_url . 'oauth/verifyOAuth',
-        'installed_redirect_uri'    =>  $host_url . 'install/installed'
+        'redirect_uri'              =>  $host_url . 'OAuth/verifyOAuth',
+        'installed_redirect_uri'    =>  $host_url . 'Install/installed'
     ]
 ];

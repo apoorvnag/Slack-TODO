@@ -26,7 +26,7 @@ class InstallController extends AppController
         $this->layout = false;
         
         return $this->redirect(
-            array('controller' => 'oauth', 'action' => 'redirectOAuth')
+            array('controller' => 'OAuth', 'action' => 'redirectOAuth')
         );
     }
 

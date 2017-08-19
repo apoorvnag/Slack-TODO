@@ -71,7 +71,7 @@ class OAuthController extends AppController
                 $access_id = $OAuthRepository->saveToDB($response);
                 if(isset($access_id)) {
                     return $this->redirect(
-                         array('controller' => 'install', 'action' => 'installed')
+                         array('controller' => 'Install', 'action' => 'installed')
                     );
                 }
                 else {
